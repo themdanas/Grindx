@@ -1,0 +1,34 @@
+# LLM & LangChain
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+openai
+
+# Vector Databases & Embeddings
+chromadb
+langchain-chroma
+sentence-transformers
+faiss-cpu
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+plotly
+
+# RAG & Document Processing
+python-dotenv
+pypdf
+pydantic
+requests
+
+# Jupyter & Development
+jupyter
+jupyterlab
+ipython
+ipywidgets
+
+# Additional Utilities
+python-dateutil
+typing-extensions
