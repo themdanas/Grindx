@@ -27,7 +27,7 @@ from anthropic import AnthropicFoundry
 # ── Client ────────────────────────────────────────────────────────────────────
 
 def get_llm_client() -> AnthropicFoundry:
-    dotenv.load_dotenv("f:/grindx/.env")
+    dotenv.load_dotenv("/Users/amanyadav/IDTH/Grindx/.env")
 
     resource_name = os.getenv("AZURE_FOUNDRY_RESOURCE_NAME")
     api_key = os.getenv("AZURE_SECRET_KEY")

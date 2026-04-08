@@ -32,3 +32,4 @@ ipywidgets
 # Additional Utilities
 python-dateutil
 typing-extensions
+anthropic

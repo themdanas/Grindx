@@ -12,7 +12,7 @@ from openai import AzureOpenAI
 
 def get_embedding_client() -> AzureOpenAI:
     """Initialize and return the Azure OpenAI client for embeddings."""
-    dotenv.load_dotenv("f:/grindx/.env")
+    dotenv.load_dotenv("/Users/amanyadav/IDTH/Grindx/.env")
     client = AzureOpenAI(
         azure_endpoint=os.getenv("AZURE_FOUNDRY_TEXT_EMBEDDING_3_SMALL"),
         api_version="2025-04-01-preview",
